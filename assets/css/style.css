@@ -1,0 +1,85 @@
+@import "grid.css";
+
+body {
+	font-size: 16px;
+	font-family: Calibri,Geneva, Heveltica,Sans-Serif; 
+}
+.header {
+	padding: 40px 0; 
+}
+.header .container h1 {
+	font-size: 3.5rem;
+	color:#666;
+}
+.header .container h2 {
+	font-size: 1.2em;
+	color:#ccc;
+}
+.skills-container {
+	padding:15px;
+	background: #f0f0f0;
+	border-radius: 5px;
+}
+.skills-container:after {
+	content:" ";
+	clear: both;
+	display: block;
+	width: 100%;
+}
+.skills-container .skill-container {
+	width: 100%;
+	max-width: 20%;
+	float: left;
+	cursor: pointer;
+	padding:5px;
+	border:1px solid #fff;
+	margin-left: -1px;
+}
+.skills-container .skill {
+	padding:10px;
+}
+.skills-container .skill:active {
+	background: #ddd;
+}
+.content h1 {
+	font-size: 1.6em;
+	margin-bottom: 20px;
+	color: #999;
+	border-bottom:2px solid #f0f0f0;
+}
+.registration-form label {
+	font-size: 1.1em;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	display: block;
+}
+.form-input {
+	display: block; 
+	border:0; 
+	font-size: 1em; 
+	padding: 8px; 
+	width: 100%; 
+	border:1px solid #f0f0f0; 
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.e_active:focus {
+	box-shadow: 0 0 8px #f00;
+	transition:0.3s linear;
+}
+.submit-form {
+	font-size: 1rem;
+	border:0;
+	background: #666;
+	color:#fff;
+	width: 120px;
+	height: 35px;
+	margin: 20px 0 0 0;
+	cursor: pointer;
+	transition:0.4s linear;
+	border-radius: 3px;
+}
+.submit-form:hover {
+	background: #999;
+	transition:0.2s linear;
+}
